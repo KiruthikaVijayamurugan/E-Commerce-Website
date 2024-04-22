@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch store</title>
+    <link rel="shortcut icon" type="x-icon" href="assets/toplogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="headtop bg-light" id="headtop">
+        <nav class="navbar navbar-expand-lg bg-light" id="navbar">
+            <div class="container-fluid vertical"> 
+                <div class="container d-flex justify-content-between icon">
+                    <div class="iconremove pt-2">
+                        <a href="#"><i class="fa-solid fa-location-dot fa-lg"></i></a>
+                        <a href="#"><i class="fa-regular fa-paper-plane fa-lg"></i></a>
+                    </div>
+                    <div class="iconremove pt-2">
+                        <a href="#"><i class="fa-regular fa-envelope fa-lg"></i></a>
+                        <a href="#"><i class="fa-regular fa-user fa-lg"></i></a>
+                    </div>
+                </div>
+                <a  class="navbar-brand logo" id="navbrand" href="#main"><img src="assets/navlog.png" alt="logo" class="img-fluid" width="80px" height="2rem"><span id="navfont">LuxuryM4</span></a>
+                <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="toggler-icon top-bar"></span>
+                  <span class="toggler-icon middle-bar"></span>
+                  <span class="toggler-icon bottom-bar"></span>
+                </button>
+                  <div class="collapse navbar-collapse bg-light " id="navbarNav">
+                    <ul class="navbar-nav ">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#" onclick="watchstore()">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                LIVE DEMO
+                              </a>
+                              <ul class="dropdown-menu dropdown-menu-light dropdown-menu1" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item btop" href="#" onclick="watchstore()">LUXURY WATCH STORE</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="jewelstore()">LUXURY SHOP</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="accessorystore()">ACCESSORIES</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                    </li>
+                    <li class="nav-item">
+                      <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            LIVE DEMO BLOCKS
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-light dropdown-menu2" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a class="dropdown-item btop" href="#" onclick="other1()">HEADERS AND MAPS</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="other2()">IMAGES AND VIDEOS</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="other3()">TITLES AND SHOP</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="other4()">FEATURES AND SOCIAL</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="other5()">CONTENT AND FOOTER</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="other6()">FORMS AND TEAMS AND INFO</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">BUY NOW</a>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+          </nav>
+</header>
+<main id="watch-shop">
+    <section id="main">
+        <div class="container-lg p-5 ">
+            <div class="row m-4 justify-content-center">
+                <div class="col-lg-8 col-md-10  col-sm-12 col-12 text-center align-items-center ">
+                    <div>
+                        <span id="brand">LUXURYM4 WATCH</span>
+                    </div>
+                    <p class="my-4 text-center fw-lighter pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt incidunt atque delectus sed debitis ratione sint, voluptate labore asperiores veritatis nostrum laborum, officiis, temporibus. Maxime nam distinctio omnis facere ipsa!Rem qui illum, consequuntur itaque labore sapiente. </p>
+                    <a href="#story" class="fw-lighter a-line afont">START SHOPPING</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="grey">
+    <section id="story">
+        <div class="container py-5">
+            <div class="row flex-column-reverse flex-lg-row gx-lg-5">
+                <div class="col-lg-8">
+                    <img src="assets/img2.jpeg" class="img-fluid pt-3"  alt="Watch show case">
+                </div>
+                <div class="col-lg-4 d-flex text-md-start text-lg-start text-sm-center  text-center justify-content-center align-items-center">
+                    <div>
+                        <h1 class="pb-3 display-3">Our Story</h1>
+                        <p class="fw-lighter pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemod dolor sit amet consectetur adipisicing elit. Nemod dolor sit amet consectetur adipisicing elit. Nemod dolor sit amet consectetur adipisicing elit. Nemod dolor sit amet consectetur adipisicing elit. Nemod</p>
+                        <a href="#watch-display" class="fw-lighter a-line afont">VIEW COLLECTION</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="technology">
+        <div class="container pb-5">
+            <div class="row gx-5">
+                <div class="col-lg-7 col-md-7 text-md-start text-lg-start text-sm-center text-center  d-flex justify-content-center align-items-center">
+                    <div>
+                        <h1 class="mb-3 text-uppercase display-3 pb-3">We Use The Latest Technology</h1>
+                        <p class="fw-lighters pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus tellus ac cursus commodo, tortor mauris condimentum nibh,</p>
+                        <a href="#watch-display" class="fw-lighter a-line afont">VIEW COLLECTION</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 pt-5">
+                    <img src="assets/img3.jpeg" class="img-fluid"  alt="Watch technology">
+                </div>
+            </div>
+        </div>
+    </section>
+<section id="watch-collections">
+    <section id="watch-display">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4 col-md-4  watch1 watch" data-name="watch1">
+                    <div class="cards">
+                        <img src="assets/img6.jpg" class="img-fluid collection" alt="Watch s1" >
+                        <div class="card-body hide bg-light my-lg-1 my-sm-0">
+                            <div class="fs-5">Luxury Watch &nbsp; $8800</div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="col-sm-12 col-lg-4 col-md-4  watch2 watch" data-name="watch2">
+                    <div class="cards">
+                        <img src="assets/img8.jpg" class="img-fluid collection" alt="Watch s2" >
+                        <div class="card-body hide bg-light my-lg-1 my-sm-0">
+                            <div class="fs-5">Luxury Watch &nbsp; $6400</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 col-md-4  watch3 watch" data-name="watch3">
+                    <div class="cards">
+                        <img src="assets/img7.jpg" class="img-fluid collection" alt="Watch s2" >
+                        <div class="card-body hide bg-light my-lg-1 my-sm-0">
+                            <div class="fs-5">Luxury Watch &nbsp; $6300</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="watch-preview">
+        <div class="container preview " data-target="watch1">
+            <div class="row gx-5 d-flex justify-content-center align-items-center">
+                <div class="col-6 d-none d-sm-inline d-md-inline d-lg-inline">
+                    <img src="assets/img6.jpg" class="img-fluid collection" alt="Watch s1" >
+                </div>
+                <div class="col-12 col-lg-6 col-md-6 col-sm-6 ps-5">
+                    <h3 class="display-6">Luxury Watch</h3>
+                    <h3 class="display-6">$8800</h3>
+                    <p class="fw-lighter">
+                    S1 watch(contact us for purcase)<br>
+                        <ul class="fw-lighter">
+                            <li>Light Weight</li>
+                            <li>High quality leather</li>
+                            <li>Excellent mechanism</li>
+                            <li>Elegent Design</li>
+                        </ul>
+                    </p>
+                    <p class="fw-lighter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nemo.</p>
+                    <p class="fw-lighter">Product Code: <strong>356IKD3</strong></p>
+                    <button type="button" class="btn fw-lighter buy rounded-0">Buy Now</button>
+                    <button type="button" class="btn fw-lighter close">Close</button>
+                </div>
+            </div>
+        </div>
+        <div class="container preview " data-target="watch2">
+            <div class="row gx-5 d-flex justify-content-center align-items-center">
+                <div class="col-6 d-none d-sm-inline d-md-inline d-lg-inline">
+                    <img src="assets/img8.jpg" class="img-fluid collection" alt="Watch s2" >
+                </div>
+                <div class="col-12 col-lg-6 col-md-6 col-sm-6 ps-5">
+                    <h3 class="display-6">Luxury Watch</h3>
+                    <h3 class="display-6">$6400</h3>
+                    <p class="fw-lighter">
+                    S2 watch(contact us for purcase)<br>
+                        <ul class="fw-lighter">
+                            <li>Shiny gloss finish</li>
+                            <li>High quality metal</li>
+                            <li>Excellent mechanism</li>
+                            <li>Attractive Design</li>
+                        </ul>
+                    </p>
+                    <p class="fw-lighter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nemo.</p>
+                    <p class="fw-lighter">Product Code:<strong>322KKI6</strong> </p>
+                    <button type="button" class="btn fw-lighter buy">Buy Now</button>
+                    <button type="button" class="btn fw-lighter close">Close</button>
+                </div>
+            </div>
+        </div>
+        <div class="container preview " data-target="watch3">
+            <div class="row gx-5 d-flex justify-content-center align-items-center">
+                <div class="col-6 d-none d-sm-inline d-md-inline d-lg-inline">
+                    <img src="assets/img7.jpg" class="img-fluid collection" alt="Watch s3" >
+                </div>
+                <div class="col-12 col-lg-6 col-md-6 col-sm-6 ps-5">
+                    <h3 class="display-6">Luxury Watch</h3>
+                    <h3 class="display-6">$6300</h3>
+                    <p class="fw-lighter">
+                    S3 watch(contact us for purcase)<br>
+                        <ul class="fw-lighter">
+                            <li>Light Weight</li>
+                            <li>High quality leather</li>
+                            <li>Excellent mechanism</li>
+                            <li>Stylish Design</li>
+                        </ul>
+                    </p>
+                    <p class="fw-lighter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nemo.</p>
+                    <p class="fw-lighter">Product Code: <strong>963IKD3</strong></p>
+                    <button type="button" class="btn fw-lighter buy">Buy Now</button>
+                    <button type="button" class="btn fw-lighter close">Close</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+</section>
+    <section id="our-watches">
+        <div class="container my-5 pt-5">
+            <div class="row gx-lg-5">
+                <div class="col-lg-6">
+                    <img src="assets/img4.jpg" class="img-fluid pb-3 accdisplay"  alt="Watch show case">
+                </div>
+                <div class="col-lg-6 text-md-start text-lg-start text-sm-center text-center d-flex justify-content-center align-items-center">
+                    <div>
+                    <h1 class="display-6 pb-3">All Our Watches</h1>
+                    <div class="row fs-6">
+                        <div class="col-lg-6">
+                            <p class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            <br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="fw-lighter">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                            </p>
+                        </div>
+                    </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section id="watch-form">
+        <div class="container my-5 py-5">
+            <div class="row">
+                <div class="col-lg-6 text-md-start text-lg-start text-sm-center text-center d-flex justify-content-center align-items-center pe-5">
+                    <div class="position">
+                        <h1 class="pb-3 display-3">Contact Us</h1>
+                        <p class="fw-lighter lh-lgs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed sollicitudin felis. Vestibulum vestibulum leo sed elit inter dum malesuada. Sed turpis. Etiam nisi nunc, viverra vitae euismod nec, convallis et arcu. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed sollicitudin felis</p>
+                        <p class="py-2 lh-lg">Tel: +1234567<br>E-mail: support@luxurywatches.com</p>
+                            <form class="form py-1" action="#" method="post">
+                            <div class="row gy-2">
+                                <div class="col-6">
+                                    <input class="form-control borderform" type="text" id="username" name="username" placeholder="Name" required>
+                                </div>
+                                <div class="col-6">
+                                    <input class="form-control borderform" type="email" id="mailid" name="mailid" placeholder="Email" required>
+                                </div>
+                                <div class="col-6">
+                                    <input class="form-control borderform" type="text" id="city" name="city" placeholder="City" required>
+                                </div>
+                                <div class="col-6">
+                                    <input class="form-control borderform" type="text" id="country" name="country" placeholder="Country" required>
+                                </div>
+                                <div class="col-12">
+                                    <input class="form-control borderform" type="text" id="subject" name="subject" placeholder="Subject" required>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control borderform " type="text" name="yourmessage" id="yourmessage" cols="30" rows="5" placeholder="Your Message" style="max-height:300px; overflow:auto;" required></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-large formbtn">SEND</button>
+                            </form>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/img5.jpg" class="img-fluid d-lg-block d-md-block d-sm-none d-none"  alt="Watch store building">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</main>
+
+    <!-- --------------------------------------LUXURY STORE-------------------------------- -->
+
+<main id="jewel-shop notactive">
+<section class="babypink">
+    <section id="video-container" class="py-5 notactive">
+        <div class="container">
+            <div class="main-video-container videocontainer">
+                <video src="assets/VEED_Stud Jewelry.mp4" autoplay loop muted plays disablePictureInPicture controlsList="nodownload" class="main-video"></video>
+                <div class="content">
+                    <span id="brand">LUXURY SHOP</span>
+                    <p>SINCE 1854</p>
+                </div>
+             </div>
+        </div>
+    </section>
+    <section id="jewelry-story" class="notactive">
+        <div class="container pb-5">
+            <div class="row gx-5">
+                <div class="col-lg-6 text-md-start text-lg-start text-sm-center text-center d-flex justify-content-center align-items-center">
+                    <div>
+                        <h1 class="mb-3 display-3 pb-3">From the Blog</h1>
+                        <p class="fw-lighters pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt incidunt atque delectus sed debitis ratione sint, voluptate labore asperiores veritatis nostrum laborum, officiis, temporibus. Maxime</p>
+                        <a href="#Jewelry-display" class="fw-lighter a-line afont">VIEW COLLECTION</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-6">
+                    <img src="assets/shopimg1.jpg" class="img-fluid"  alt="image">
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+    <section id="jewelry" class="notactive">
+        <div class="container py-5">
+            <div class="row gx-5">
+                <div class="col-lg-5 text-md-start text-lg-start text-sm-center text-center d-flex justify-content-center align-items-center">
+                    <div>
+                        <h1 class="mb-3 display-3 pb-3">Your Jewelry</h1>
+                        <p class="fw-lighters pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+                        <a href="#Jewelry-display" class="fw-lighter a-line afont">EXPLORE COLLECTIONS</a>
+                    </div>
+                </div>
+                <div class="col-lg-7 pt-5">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="image">
+                                <div class="zoom">
+                                    <img src="assets/shopimg2.jpg" class="img-fluid"  alt="image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="image">
+                                <div class="zoom">
+                                    <img src="assets/shopimg3.jpg" class="img-fluid"  alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <div class="image">
+                                <div class="zoom">
+                                    <img src="assets/shopimg4.jpg" class="img-fluid"  alt="image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="image">
+                                <div class="zoom">
+                                    <img src="assets/shopimg5.jpg" class="img-fluid"  alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+
+<section class="babypink">
+    <section id="Jewelry-display" class="notactive">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center py-5">
+                    <h1 class="quote">Our Jewelry</h1>
+                </div>
+                <div class="col-sm-12 col-lg-4 col-md-4 watch2 watch">
+                    <div class="cards">
+                        <img src="assets/shopimg6.jpg" class="img-fluid collection" alt="Watch s1" >
+                        <div class="card-body hide my-lg-1 my-sm-0">
+                            <div class="text-center">GROOVED TEXTURE GOLD BANGLE SET
+                                MANY IN STOCK</div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="col-sm-12 col-lg-4 col-md-4  watch2 watch">
+                    <div class="cards">
+                        <img src="assets/shopimg7.jpg" class="img-fluid collection" alt="Watch s2" >
+                        <div class="card-body hide my-lg-1 my-sm-0">
+                            <div class="text-center">GROOVED TEXTURE GOLD BANGLE SET
+                                MANY IN STOCK</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 col-md-4  watch3 watch">
+                    <div class="cards">
+                        <img src="assets/shopimg8.jpg" class="img-fluid collection" alt="Watch s2" >
+                        <div class="card-body hide my-lg-1 my-sm-0">
+                            <div class="text-center">GROOVED TEXTURE GOLD BANGLE SET
+                                MANY IN STOCK</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4 col-md-4  watch1 watch">
+                    <div class="cards">
+                        <img src="assets/shopimg9.jpg" class="img-fluid collection" alt="Watch s1" >
+                        <div class="card-body hide my-lg-1 my-sm-0">
+                            <div class="text-center">GROOVED TEXTURE GOLD BANGLE SET
+                                MANY IN STOCK</div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="col-sm-12 col-lg-4 col-md-4  watch2 watch">
+                    <div class="cards">
+                        <img src="assets/shopimg10.jpg" class="img-fluid collection" alt="Watch s2" >
+                        <div class="card-body hide my-lg-1 my-sm-0">
+                            <div class="text-center">GROOVED TEXTURE GOLD BANGLE SET
+                                MANY IN STOCK</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 col-md-4  watch3 watch">
+                    <div class="cards">
+                        <img src="assets/shopimg11.jpg" class="img-fluid collection" alt="Watch s2" >
+                        <div class="card-body hide my-lg-1 my-sm-0">
+                            <div class="text-center">GROOVED TEXTURE GOLD BANGLE SET
+                                MANY IN STOCK</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+<section id="form-jewel" class="notactive">
+    <div class="container my-5 pt-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 text-center pe-5">
+                <div class="position">
+                        <h1 class="pb-3 display-3">Contact Us</h1>
+                        <form class="form py-1" action="#" method="post">
+                        <div class="row gy-3">
+                            <div class="col-6">
+                                <input class="form-control borderform" type="text" id="username" name="username" placeholder="Name" required>
+                            </div>
+                            <div class="col-6">
+                                <input class="form-control borderform" type="email" id="mailid" name="mailid" placeholder="Email" required>
+                            </div>
+                            <div class="col-6">
+                                <input class="form-control borderform" type="text" id="city" name="city" placeholder="City" required>
+                            </div>
+                            <div class="col-6">
+                                <input class="form-control borderform" type="text" id="country" name="country" placeholder="Country" required>
+                            </div>
+                            <div class="col-12">
+                                <input class="form-control borderform" type="text" id="subject" name="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control borderform " type="text" name="yourmessage" id="yourmessage" cols="30" rows="5" placeholder="Your Message" style="max-height:300px; overflow:auto;" required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-large formbtn">SEND</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="Newsletter" class="notactive">
+    <div class="container my-5 py-5">
+        <div class="row">
+            <div class="col-12 text-center d-flex justify-content-center align-items-center pe-5">
+                <div class="position">
+                    <h1 class="pb-3 display-3">Subscribe To Our Newsletter</h1>
+                    <p class="fw-lighter lh-lgs">Sign up to stay in the loop. Recieve updates, access to exclusive deals, and more.</p>
+                        <form class="form py-5" action="#" method="post">
+                        <div class="row gy-1">
+                            <div class="col-12 col-lg-9 col-md-9 col-sm-12">
+                                <input class="form-control borderform" type="text" id="subject" name="subject" placeholder="Your Email" required>
+                            </div>
+                            <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+                                <button type="reset" class="btn btn-large subbtn">SUBSCRIBE</button>
+                            </div>
+                        </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="frenchsec" class="notactive">
+        <div class="container py-5">
+            <div class="row gx-5">
+                <div class="col-12 py-5">
+                    <h1 class="text-center quote">Bijouter for Everyone</h1>
+                </div>
+                <div class="col-lg-6 text-md-start text-lg-start text-sm-center">
+                    <div>
+                        <h1 class="mb-3 pb-3">“The ultimate in luxury and style.”</h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-6">
+                    <p class="pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt incidunt atque delectus sed debitis ratione sint, voluptate labore asperiores veritatis nostrum laborum, officiis, temporibus. Maxime</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team-display" class="notactive">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center py-5">
+                    <h1>Our Awesome Team</h1>
+                </div>
+                <div class="col-sm-12 col-lg-3 col-md-6">
+                    <div class="card border-0" >
+                        <div class="d-flex justify-content-center"><img src="assets/shopimg12.jpg" class="card-img-top" alt="Watch s2"></div>
+                        
+                        <div class="card-body my-lg-1 my-sm-0">
+                            <h2 class="text-center">John Smith</h2>
+                            <div class="icons text-center py-2">
+                                <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                                <a href="#"><i class="fa-regular fa-paper-plane"></i></a>
+                                <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                                <a href="#"><i class="fa-solid fa-phone"></i></a>
+                            </div>
+                            <p class="text-center">Sales Manager</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3 col-md-6">
+                    <div class="card border-0">
+                        <img src="assets/shopimg13.jpg" class="card-img-top collection" alt="Watch s2" >
+                        <div class="card-body my-lg-1 my-sm-0">
+                            <h2 class="text-center">Amanda Adams</h2>
+                            <div class="icons text-center py-2">
+                                <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                                <a href="#"><i class="fa-regular fa-paper-plane"></i></a>
+                                <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                                <a href="#"><i class="fa-solid fa-phone"></i></a>
+                            </div>
+                            <p class="text-center">Service Advisor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3 col-md-6">
+                    <div class="card border-0">
+                        <img src="assets/shopimg14.jpg" class="card-img-top collection" alt="Watch s2" >
+                        <div class="card-body my-lg-1 my-sm-0">
+                            <h2 class="text-center">Rose Adams</h2>
+                            <div class="icons text-center py-2">
+                                <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                                <a href="#"><i class="fa-regular fa-paper-plane"></i></a>
+                                <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                                <a href="#"><i class="fa-solid fa-phone"></i></a>
+                            </div>
+                            <p class="text-center">Purchasing Officer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3 col-md-6">
+                    <div class="card border-0">
+                        <img src="assets/shopimg15.jpg" class="card-img-top collection" alt="Watch s2" >
+                        <div class="card-body my-lg-1 my-sm-0">
+                            <h2 class="text-center">Jessica Smith</h2>
+                            <div class="icons text-center py-2">
+                                <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                                <a href="#"><i class="fa-regular fa-paper-plane"></i></a>
+                                <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                                <a href="#"><i class="fa-solid fa-phone"></i></a>
+                            </div>
+                            <p class="text-center">Business Analyst</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!-- ----------------------------------------------ACCESSORIES---------------------------------------------------- -->
+<main id="accessory-shop">
+    <section id="mainacc" class="notactive">
+        <div class="container-lg p-5 ">
+            <div class="row m-4 justify-content-center">
+                <div class="col-lg-8 col-md-10 text-center align-items-center ">
+                    <p class="h4 py-3">Present Your Product</p>
+                    <div>
+                        <span id="brand">Bracelets and Necklaces</span>
+                    </div>
+                    <p class="my-4 text-center fw-lighter pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt incidunt atque delectus sed debitis ratione sint, voluptate labore asperiores veritatis nostrum laborum, officiis, temporibus. Maxime nam distinctio omnis facere ipsa!Rem qui illum, consequuntur itaque labore sapiente. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="#storyaccessories" class="fw-lighter a-line">START SHOPPING</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="storyaccessories" class="notactive">
+        <div class="container py-5">
+            <div class="row flex-lg-row gx-lg-5">
+                <div class="col-lg-6 d-flex text-md-start text-lg-start text-sm-center justify-content-center align-items-center">
+                    <div>
+                        <h1 class="py-5 display-3">Our Story</h1>
+                        <p class="fw-lighter pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt incidunt atque delectus sed debitis ratione sint</p>
+                        <a href="#Jewelry-display1" class="fw-lighter a-line afont">VIEW COLLECTION</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/accimg2.jpg" class="img-fluid pt-3"  alt="Watch show case">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="our-accessories" class="notactive">
+        <div class="container my-5 py-5">
+            <div class="row gx-lg-5">
+                <div class="col-lg-6">
+                    <img src="assets/accimg3.jpg" class="img-fluid pb-3 accdisplay"  alt="Watch show case">
+                </div>
+                <div class="col-lg-6 text-md-start text-lg-start text-sm-center d-flex justify-content-center align-items-center">
+                    <div>
+                    <h1 class="display-6 py-3">The Necklaces and Bracelets</h1>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <p class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            <br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="fw-lighter">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                            </p>
+                        </div>
+                    </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Jewelry-display1" class="notactive">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4 col-md-4  watch1 watch">
+                    <div class="cards">
+                        <img src="assets/accimg4.jpg" class="img-fluid collection" alt="Watch s1" >
+                        <div class="card-body hide my-lg-1 my-sm-0">
+                            <div class="text-center">GROOVED TEXTURE GOLD BANGLE SET
+                                MANY IN STOCK</div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="col-sm-12 col-lg-4 col-md-4  watch2 watch">
+                    <div class="cards">
+                        <img src="assets/accimg5.jpg" class="img-fluid collection" alt="Watch s2" >
+                        <div class="card-body hide my-lg-1 my-sm-0">
+                            <div class="text-center">GROOVED TEXTURE GOLD BANGLE SET
+                                MANY IN STOCK</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 col-md-4  watch3 watch">
+                    <div class="cards">
+                        <img src="assets/accimg6.jpg" class="img-fluid collection" alt="Watch s2" >
+                        <div class="card-body hide my-lg-1 my-sm-0">
+                            <div class="text-center">GROOVED TEXTURE GOLD BANGLE SET
+                                MANY IN STOCK</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-4 col-md-4  watch1 watch" >
+                    <div class="cards">
+                        <img src="assets/accimg7.jpg" class="img-fluid collection" alt="Watch s1" >
+                        <div class="card-body hide my-lg-1 my-sm-0">
+                            <div class="text-center">GROOVED TEXTURE GOLD BANGLE SET
+                                MANY IN STOCK</div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="col-sm-12 col-lg-4 col-md-4  watch2 watch" >
+                    <div class="cards">
+                        <img src="assets/accimg8.jpg" class="img-fluid collection" alt="Watch s2" >
+                        <div class="card-body hide my-lg-1 my-sm-0">
+                            <div class="text-center">GROOVED TEXTURE GOLD BANGLE SET
+                                MANY IN STOCK</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 col-md-4  watch3 watch">
+                    <div class="cards">
+                        <img src="assets/accimg9.jpg" class="img-fluid collection" alt="Watch s2" >
+                        <div class="card-body hide my-lg-1 my-sm-0">
+                            <div class="text-center">GROOVED TEXTURE GOLD BANGLE SET
+                                MANY IN STOCK</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Jewelry-display2" class="notactive">
+        <div class="container pb-5 mb-5">
+            <div class="row gx-5">
+                <div class="col-12 text-center pt-5">
+                    <h1 class="display-3">Our Best Necklaces</h1>
+                </div>
+                <div class="col-lg-7 pt-5">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="image">
+                                <div class="zoom">
+                                    <img src="assets/accimg11.jpg" class="img-fluid"  alt="image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="image">
+                                <div class="zoom">
+                                    <img src="assets/accimg12.jpg" class="img-fluid"  alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <div class="image">
+                                <div class="zoom">
+                                    <img src="assets/accimg13.jpg" class="img-fluid"  alt="image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="image">
+                                <div class="zoom">
+                                    <img src="assets/accimg14.jpg" class="img-fluid"  alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-lg-5 text-md-start text-lg-start text-sm-center d-flex justify-content-center align-items-center px-5 pt-5">
+                    <div>
+                        <h1 class="mb-3 display-4 pb-3">Your Jewelry</h1>
+                        <p class="fw-lighter pb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+                        <a href="#Jewelry-display1" class="fw-lighter a-line afont">EXPLORE COLLECTIONS</a>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </section>
+
+    <section id="accoffer" class="notactive">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6 text-md-start text-lg-start text-sm-center">
+                    <div>
+                        <p class="fs-5">Hurry up! The offer is limited</p>
+                        <h1 class="mb-3 py-3">Special Offer For You</h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-6 text-md-start text-lg-start text-sm-center d-flex justify-content-center align-items-center">
+                    <a href="#storyaccessories" class="fw-lighter a-line afont">VIEW COLLECTION</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="form-acc" class="notactive">
+        <div class="container my-5 py-5">
+            <div class="row">
+                <div class="col-lg-6 text-md-start text-lg-start text-sm-center d-flex justify-content-center align-items-center pe-5">
+                    <div class="position">
+                        <h1 class="pb-3 display-3">Contact Us</h1>
+                        <p class="fw-lighter lh-lgs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed sollicitudin felis. Vestibulum vestibulum leo sed elit inter dum malesuada. Sed turpis. Etiam nisi nunc, viverra vitae euismod nec, convallis et arcu. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed sollicitudin felis</p>
+                        <p class="py-2 lh-lg">Tel: +1234567<br>E-mail: support@luxurywatches.com</p>
+                            <form class="form py-1" action="#" method="post">
+                            <div class="row gy-2">
+                                <div class="col-6">
+                                    <input class="form-control borderform" type="text" id="username" name="username" placeholder="Name" required>
+                                </div>
+                                <div class="col-6">
+                                    <input class="form-control borderform" type="email" id="mailid" name="mailid" placeholder="Email" required>
+                                </div>
+                                <div class="col-6">
+                                    <input class="form-control borderform" type="text" id="city" name="city" placeholder="City" required>
+                                </div>
+                                <div class="col-6">
+                                    <input class="form-control borderform" type="text" id="country" name="country" placeholder="Country" required>
+                                </div>
+                                <div class="col-12">
+                                    <input class="form-control borderform" type="text" id="subject" name="subject" placeholder="Subject" required>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control borderform " type="text" name="yourmessage" id="yourmessage" cols="30" rows="5" placeholder="Your Message" style="max-height:300px; overflow:auto;" required></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-large formbtn">SEND</button>
+                            </form>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-3">
+                    <img src="assets/accimg10.jpg" class="img-fluid d-lg-block d-md-block d-sm-none d-none company"  alt="Watch store building">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="map-acc" class="notactive">
+        <div class="container my-5 py-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 text-md-start text-lg-start text-sm-center text-center d-flex justify-content-center align-items-center">
+                    <div>
+                        <h2 class="py-3">The Bracelet and Necklace Boutique</h2>
+                        <p class="fw-lighter text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <div style="width: 300px;" class="lh-lg">
+                            <div class="d-flex justify-content-between justify-content-lg-between">
+                                <div >Monday</div>
+                                <div>13:00 - 17:45</div>
+                            </div>
+                            <div class="d-flex justify-content-between justify-content-lg-between">
+                                <div >Tuesday</div>
+                                <div>10:00 - 17:45</div>
+                            </div>
+                            <div class="d-flex justify-content-between justify-content-lg-between">
+                                <div >Wednesday</div>
+                                <div>10:00 - 17:45</div>
+                            </div>
+                            <div class="d-flex justify-content-between justify-content-lg-between">
+                                <div >Thursday</div>
+                                <div>10:00 - 17:45</div>
+                            </div>
+                            <div class="d-flex justify-content-between justify-content-lg-between">
+                                <div >Friday</div>
+                                <div>10:00 - 17:45</div>
+                            </div>
+                            <div class="d-flex justify-content-between justify-content-lg-between">
+                                <div >Saturday</div>
+                                <div>10:00 - 17:45</div>
+                            </div>
+                            <div class="d-flex justify-content-between justify-content-lg-between">
+                                <div >Sunday</div>
+                                <div>13:00 - 17:45</div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4966.1201558565!2d-0.12913415261090413!3d51.51211378725719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604cb878e81b3%3A0x91f10fa364452046!2sCovent%20Garden%2C%20London%2C%20UK!5e0!3m2!1sen!2sin!4v1711128173861!5m2!1sen!2sin" width="300" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <footer id="footer">
+        <div class="container pt-3">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h1>SHARE THIS PAGE!</h1>
+                </div>
+                <div class="py-5"> 
+                    <span class="btn icon btn-icon" title="Share this page on Facebook"><i class="fa-brands fa-facebook-f"></i></span>
+                    <span class="btn icon btn-icon" title="Share this page on Twitter"><i class="fa-brands fa-x-twitter"></i></span>
+                    <span class="btn icon btn-icon" title="Share this page on Instagram"><i class="fa-brands fa-instagram"></i></span>
+                    <span class="btn icon btn-icon" title="Share this page on Whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="container py-5 mb-5">
+                <div class="row">
+                    <div class="col-6">2024 - All rights reserved.</div>
+                    <a class="col-6 copyright" href="#main">LUXURYM4</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="script.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
